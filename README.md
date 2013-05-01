@@ -8,7 +8,7 @@ A few notes on how this works:
 
 * To use this program, you'll need the [python-oauth2](https://github.com/simplegeo/python-oauth2) and [pytumblr](https://github.com/tumblr/pytumblr) modules.
 
-* To post to a Tumblr account, you'll need to [register your app to use the Tumblr API](http://www.tumblr.com/docs/en/api/v2). You'll then need to go through the OAuth flow to grant your app credentials to post to your Tumblr blog. I used [this three-legged OAuth example](https://github.com/simplegeo/python-oauth2#twitter-three-legged-oauth-example) (just replac all the Twitter stuff with Tumblr stuff).
+* To post to a Tumblr account, you'll need to [register your app to use the Tumblr API](http://www.tumblr.com/docs/en/api/v2). You'll then need to go through the OAuth flow to grant your app credentials to post to your Tumblr blog. I used [this three-legged OAuth example](https://github.com/simplegeo/python-oauth2#twitter-three-legged-oauth-example) (just replace all the Twitter stuff with Tumblr stuff).
 
 * Put the URLs of all the pages you want to scrape in url.txt, with each seperated by a line break.
 
