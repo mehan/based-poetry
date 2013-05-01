@@ -29,12 +29,6 @@ class FakeMozillaOpener(urllib.FancyURLopener):
 urllib._urlopener = FakeMozillaOpener()
 
 
-# here's how to fake a user agent string with urllib
-class FakeMozillaOpener(urllib.FancyURLopener):
-  version = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31'
-urllib._urlopener = FakeMozillaOpener()
-
-
 for line in url_file:
 	line = line.strip()
 	urls.append(line)
