@@ -1,6 +1,6 @@
 #Based Poetry#
 
-Based Poetry is a Python script for creating poems from lyrics scraped from the web and then posting them to a Tumblr account. To see it in action [visit the Based Poetry Tumblr page](http://based-poetry.tumblr.com/). 
+Based Poetry is a Python script for creating poems from lyrics scraped from the web and then posting them to a Tumblr account. To see it in action [visit the Based Poetry Tumblr blog](http://based-poetry.tumblr.com/). 
 
 A few notes on how this works:
 
