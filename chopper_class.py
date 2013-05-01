@@ -21,8 +21,9 @@ class Chopper(object):
     import re
     for line in text:
         if re.search(r'\b'+self.keyword+r'\b', line, re.IGNORECASE):
-          if line not in self.matching_lines:
-            self.matching_lines.append(line)            
+          # if not re.search('(x', line):
+            if line not in self.matching_lines:
+              self.matching_lines.append(line)            
 
   def gen(self, n):
     import random
